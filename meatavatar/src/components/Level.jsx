@@ -29,7 +29,9 @@ function Level() {
 
   return (
     <div className="levelcontainer">
+      <p>คลิกเพื่อดูรายระเอียด</p>
       <div className="all-level">
+
         {levels.map((level, index) => (
           <div className={`level ${selectedLevel === index ? 'selected' : ''}`} key={index} onClick={() => handleLevelClick(index)}>
             <img src={level.image} alt={level.name} />

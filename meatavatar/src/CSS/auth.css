@@ -122,3 +122,9 @@
   font-size: 25px;
   font-weight: 600;
 }
+
+@media screen and (max-width: 1000px) {
+  .auth-wrappers{
+    padding: 30px;
+  }
+}

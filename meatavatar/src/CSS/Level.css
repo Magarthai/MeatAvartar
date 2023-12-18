@@ -42,3 +42,17 @@
 .detailstext{
     margin-left: 10vh;
 }
+@media screen and (max-width: 1000px) {
+    .all-level{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        scale: 0.5;
+        margin: 0;
+        margin-top: -50px;
+        padding-bottom: 20px;
+    }
+    .registermem{
+        margin-top: -10px;
+    }
+}

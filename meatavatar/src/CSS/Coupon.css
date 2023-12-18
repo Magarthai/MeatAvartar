@@ -24,7 +24,7 @@
 }
 .smt{
     display: flex;
-    width: 25%;
+    width: 30%;
     margin-top: 2vh;
     justify-content: left;
     font-size: 30px;
@@ -42,4 +42,33 @@
 .smttext{
     font-size: 20px;
     margin-top: 20px;
+}
+@media screen and (max-width: 1400px) {
+    .smt{
+        width: 100%;
+        border-radius: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .smt p{
+        margin-left: 0;
+    }
+    .smttext{
+        font-size: 18px;
+    }
+    .couponheader{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .moredetails{
+        margin: 0;
+        padding: 0;
+    }
+    .detailstext{
+        margin: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
 }

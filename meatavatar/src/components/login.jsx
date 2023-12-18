@@ -19,7 +19,7 @@ export default function Login() {
                   </div>
                   <ul className='menu'>
                     <li className="menulink">
-                      <Link to="/sign-in">ล็อคอิน</Link>
+                      <Link to="/login">ล็อคอิน</Link>
                     </li>
                   </ul>
                 </div>
@@ -70,9 +70,10 @@ export default function Login() {
                 </div>
 
                 <div class="d-grid">
-                    <button type="submit" className="btn btn-primary">
+                <Link to="/"><button type="submit" className="btn btn-primary">
                     เข้าสู่ระบบ
-                    </button>
+                    </button></Link>
+                    
                 </div>
 
                 <p class="forgot-password text-right">

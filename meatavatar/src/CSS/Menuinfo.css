@@ -76,7 +76,7 @@ height: 600px;
 }
 .img_ingredient{
     display: flex;
-    width: 600px;
+    width: 500px;
     justify-content: space-between;
 }
 ul{
@@ -131,7 +131,7 @@ b{
 
 .statbox{
     margin: 0;
-    width: 200px;
+    width: 14%;
     height: 200px;
     background-color: #E4CEAE;
     border-radius: 30px;
@@ -176,4 +176,70 @@ b{
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+}
+@media screen and (max-width: 1250px) {
+    .menuheadercontainer{
+        scale: 0.5;
+        padding: 0;
+        margin: 0;
+        margin-right: 0;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .menuinfo_header {
+        background-position: -60px 0; 
+        height: 50vh;
+        background-size: cover;
+    }
+    .headermenuinfo{
+        width: 100%;
+        font-size: 30px;
+    }
+    .infos{
+        margin-top: 30px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .infos p{
+        margin-top:-10px;
+    }
+    .img_ingredient img{
+        width: 70px;
+        height: 70px;
+    }
+    .img_ingredient{
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    .nutritional_header{
+        position: relative;
+        top: -100px;
+        width: 100%;
+        display: block;
+        border-radius: 0;
+        margin-top: 0;
+    }
+    .nutritional_stat{
+        margin: 0;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .statbox{
+        border-radius: 10px;
+        width: 19%;
+        height: 0%;
+        margin: 0;
+    }
+    .statname{
+        font-size: 20px;
+        margin-top: -7px;
+    }
+    .statcount{
+        font-size: 40px;
+        margin-top: -10px;
+    }
+    .statunit{
+        font-size: 15px;
+        margin-top: -10px;
+    }
 }

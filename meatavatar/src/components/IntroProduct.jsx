@@ -1,6 +1,6 @@
 import React from 'react';
 import '../CSS/IntroProduct.css';
-
+import { Link } from 'react-router-dom';
 function IntroProduct() {
   return (
     <div className="intro-product">
@@ -14,7 +14,7 @@ function IntroProduct() {
             <li>ข้อมูลเพิ่มเติมเกี่ยวกับโปรตีน</li>
         </ul>
         </div>
-        <button className='Productbtn'>Product</button>
+        <Link to="/menu"><button className='Productbtn'>Product</button></Link>
       </div>
     </div>
   );

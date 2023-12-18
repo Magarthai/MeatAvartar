@@ -28,6 +28,7 @@ export default function Register() {
             </header>
           </div>
         </header>
+        <div className="register_container">
         <section class="auth-wrappers">
             <div class="auth-inner">
             <div className="regisheader">
@@ -73,12 +74,12 @@ export default function Register() {
                 <button type="submit" class="btn btn-primary">ลงทะเบียน</button>
                 </div>
                 <p class="forgot-password text-right">
-                    มีบัญชีแล้ว? <a href="/sign-up" className="signupbtn">ล็อคอิน</a>
+                    มีบัญชีแล้ว? <a href="/login" className="signupbtn">ล็อคอิน</a>
                 </p>
                 </form>
             </div>
             </section>
-        
+            </div>
         <Footer/>
       </body>
     </html>

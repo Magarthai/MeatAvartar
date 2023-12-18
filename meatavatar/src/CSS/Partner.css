@@ -20,3 +20,8 @@
 .partner p{
     margin-bottom: 4vh;
 }
+@media screen and (max-width: 1000px) {
+    .partner{
+        font-size: 3vh;
+    }
+}
