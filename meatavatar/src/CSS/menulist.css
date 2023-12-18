@@ -84,7 +84,7 @@
     margin-right: 14vh;
 }
 
-.item button{
+.item .buttoninfo{
     background-color: #4D8A00;
     width: 100%;
     margin-bottom: 5px;
@@ -92,8 +92,24 @@
     font-size: 30px;
     font-weight: 400;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     border-radius: 100px;
+    transition: 0.2s ease;
 }
+
+.item .buttoninfo:hover{
+    scale: 1.05;
+    border: 10px solid white ;
+}
+
+.item .buttoninfo:active{
+    scale: 0.9;
+}
+
+
 i{
     justify-content: center;
     position: relative;

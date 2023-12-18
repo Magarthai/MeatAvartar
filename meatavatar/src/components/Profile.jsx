@@ -10,7 +10,7 @@ import Menulist from './Menulist'
 import "../CSS/Profile.css";
 import Level from "./Level";
 import RedeemPoint from "./RedeemPoint";
-
+import { Link } from 'react-router-dom';
 
 export default function profile({ userData }) {
   const logOut = () => {
@@ -38,7 +38,7 @@ export default function profile({ userData }) {
                   My Point : <p id="points">2000</p>
                 </div>
                 <div className="pointbtn">
-                  <button>แลกแต้ม</button>
+                <button><Link to="/redeemcode">แลกแต้ม</Link></button>
                 </div>
               </div>
             </div>

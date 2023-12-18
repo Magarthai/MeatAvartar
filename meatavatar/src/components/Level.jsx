@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../CSS/Level.css';
 
 function Level() {
@@ -43,7 +44,7 @@ function Level() {
           <p className="headerlevel">{levels[selectedLevel]?.name}</p>
           <p className="leveldetails">{levels[selectedLevel]?.details}</p>
           <div className="doublebutton">
-            <button>แลกแต้ม</button>
+            <button><Link to="/redeemcode">แลกแต้ม</Link></button>
           </div>
         </div>
       </div>

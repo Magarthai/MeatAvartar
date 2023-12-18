@@ -1,7 +1,7 @@
 import React from 'react';
 import "../CSS/menulist.css";
 import { FaSearch } from "react-icons/fa";
-
+import { Link } from 'react-router-dom';
 function menulist() {
     return (
         <div className="menulist">
@@ -32,9 +32,9 @@ function menulist() {
                             <p>Plant-Based Ground Beef</p>
                         </div>
                     </div>
-                    <button>
-                        <i><FaSearch /></i> ดูรายละเอียด
-                    </button>
+                    <Link to="/menu-info" className="buttoninfo">
+                    <i><FaSearch /></i> ดูรายละเอียด
+                    </Link>
                 </div>
                 <div className="item">
                     <div className="item-img">
@@ -43,9 +43,9 @@ function menulist() {
                             <p>Plant-Based Ground Beef</p>
                         </div>
                     </div>
-                    <button>
-                        <i><FaSearch /></i> ดูรายละเอียด
-                    </button>
+                    <Link to="/menu-info" className="buttoninfo">
+                    <i><FaSearch /></i> ดูรายละเอียด
+                    </Link>
                 </div>
                 <div className="item">
                     <div className="item-img">
@@ -54,9 +54,9 @@ function menulist() {
                             <p>Plant-Based Crispy Pock</p>
                         </div>
                     </div>
-                    <button>
-                        <i><FaSearch /></i> ดูรายละเอียด
-                    </button>
+                    <Link to="/menu-info" className="buttoninfo">
+                    <i><FaSearch /></i> ดูรายละเอียด
+                    </Link>
                 </div>
                 <div className="item">
                     <div className="item-img">
@@ -65,9 +65,9 @@ function menulist() {
                             <p>Plant-Based Minced Pork</p>
                         </div>
                     </div>
-                    <button>
-                        <i><FaSearch /></i> ดูรายละเอียด
-                    </button>
+                    <Link to="/menu-info" className="buttoninfo">
+                    <i><FaSearch /></i> ดูรายละเอียด
+                    </Link>
                 </div>
                 <div className="item">
                     <div className="item-img">
@@ -76,9 +76,9 @@ function menulist() {
                             <p>Plant-Based Japanese Curry</p>
                         </div>
                     </div>
-                    <button>
-                        <i><FaSearch /></i> ดูรายละเอียด
-                    </button>
+                    <Link to="/menu-info" className="buttoninfo">
+                    <i><FaSearch /></i> ดูรายละเอียด
+                    </Link>
                 </div>
                 <div className="item">
                     <div className="item-img">
@@ -87,9 +87,9 @@ function menulist() {
                             <p>Plant-Based Hamburg Steak Beef</p>
                         </div>
                     </div>
-                    <button>
-                        <i><FaSearch /></i> ดูรายละเอียด
-                    </button>
+                    <Link to="/menu-info" className="buttoninfo">
+                    <i><FaSearch /></i> ดูรายละเอียด
+                    </Link>
                 </div>
                 <div className="item">
                     <div className="item-img">
@@ -98,9 +98,9 @@ function menulist() {
                             <p>Plant-Based Krapow</p>
                         </div>
                     </div>
-                    <button>
-                        <i><FaSearch /></i> ดูรายละเอียด
-                    </button>
+                    <Link to="/menu-info" className="buttoninfo">
+                    <i><FaSearch /></i> ดูรายละเอียด
+                    </Link>
                 </div>
              
             </div>
